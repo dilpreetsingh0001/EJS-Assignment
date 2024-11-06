@@ -2,11 +2,11 @@ Assignment 4- 06-11-2024
 
 1. db.createCollection("students")
 
-2. db.students.insertOne({"name":"Fahaam Khan","age":20,"grade":"A+"})
+2. db.students.insertOne({"name":"Dilpreet Singh","age":20,"grade":"A+"})
 
 3.  db.students.find({ age: { $gt: 18 } })
 
-4. db.students.insertMany({"name":"Fahaam Khan","age":20,"grade":"A+"},{"name":"abc","age":17,"grade":"A+"},{"name":"def","age":16,"grade":"A+"})
+4. db.students.insertMany({"name":"Dilpreet Singh","age":20,"grade":"A+"},{"name":"abc","age":17,"grade":"A+"},{"name":"def","age":16,"grade":"A+"})
 
 5. db.students.find({ age: { $gt: 18 } })
 
