@@ -1,0 +1,7 @@
+Assignment-9 13-11-2024.txt
+
+1. db.orders.find({orderTotal: { $gt: 100 }, orderStatus: "shipped"})
+
+2. db.sales.aggregate([{$group: {_id: "$category",totalQuantity: { $sum:"$quantity" }}}])
+
+3. db.users.aggregate([{$lookup: {from: "orders",localField: "userId",foreignField: "userId",as:"userOrders"}}])
